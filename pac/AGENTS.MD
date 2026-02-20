@@ -15,7 +15,6 @@ These documents are intended to be edited by automated agents (e.g., OpenAI Code
 - `07_code_of_conduct.md` — Baseline community and hub conduct requirements.
 - `handbook.md` — Canonical “single-source-of-truth” for the entire challenge.
 - `faq.md` — Short homepage FAQ derived from the handbook.
-- `hub_listing_template.md` — Hub submission + hub page copy template.
 
 ## Terminology policy (pac/)
 - Treat **challenge** as the umbrella term.
@@ -29,7 +28,7 @@ If you do rename user-facing wording, do it as an intentional, repo-wide change 
 `handbook.md` is the canonical source. If a change affects definitions, mechanics, or policies:
 1) Update `handbook.md` first.
 2) Propagate changes to the numbered docs.
-3) Update `faq.md` and `hub_listing_template.md` if impacted.
+3) Update `faq.md` if impacted.
 
 Avoid drifting definitions between docs.
 
@@ -84,7 +83,7 @@ Avoid drifting definitions between docs.
 
 ### Hubs boundaries (do not blur)
 - Hubs manage venue, logistics, marketing, sponsors, and prizes.
-- BitGN provides listing + hub code/QR attribution + local leaderboard + promo kit + livestream embed.
+- BitGN provides in-platform proposal flows (`/me`, `/me/hubs/new`, `/me/hubs`), approval-gated revisioned listings, hub code/QR on-site check-in attribution, and local leaderboard views.
 - **No charging participants for challenge participation** (non-negotiable).
 - Data boundary: BitGN does not share platform registration data with hubs.
 - Liability boundary: hub event is hub organizer’s responsibility; platform + listing are provided by BitGN.

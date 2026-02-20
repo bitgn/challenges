@@ -1,6 +1,6 @@
 # BitGN PAC — Short Public FAQ (Homepage)
 **BitGN Agent Challenge: Personal & Trustworthy** (BitGN PAC)  
-**Last updated:** 19 Feb 2026 (Vienna time)
+**Last updated:** 20 Feb 2026 (Vienna time)
 
 ## What is BitGN PAC?
 BitGN PAC is a free, global competition where you build an autonomous agent and run it against a deterministic, enterprise-grade benchmark in a simulated personal-agent environment.
@@ -53,7 +53,16 @@ Not inside a run. Once a run starts, the agent must operate autonomously without
 Yes. After the blind window closes, BitGN reveals per-task breakdowns and violations (where supported by evaluation design).
 
 ## What are hubs?
-Hubs are optional in-person meetups synchronized with the global event. Hubs handle their own logistics and sponsors; BitGN provides hub listings and local leaderboards.
+Hubs are optional in-person meetups synchronized with the global event. Hosts handle local logistics and sponsors. BitGN provides approval-gated hub listings and local leaderboard views.
+
+## How do I host a hub?
+Use BitGN platform flows:
+- Open `/me` and click **“I want to host a hub”** on one of your interested cities.
+- Submit the proposal in `/me/hubs/new` (city, active event, hub name, hub URL, venue size, required attestations).
+- Manage state and edits in `/me/hubs` (`pending`, `approved`, `changes_pending`, `rejected`).
+
+## How do hub leaderboards work on-site?
+At the hub, participants attribute to a hub by entering the hub code or scanning the hub QR at check-in.
 
 
 ## Why should I join?

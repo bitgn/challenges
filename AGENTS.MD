@@ -12,7 +12,6 @@ This repository contains Markdown documentation for BitGN **challenges**. Each c
   - A numbered doc set (`01_...md` through `07_...md`)
   - `handbook.md` as the “single-source-of-truth”
   - `faq.md` as a short public FAQ derived from the handbook
-  - `hub_listing_template.md` as a template for hub organizers
 
 ## Terminology policy
 - Use **challenge** as the umbrella term at the repository level.
@@ -41,13 +40,13 @@ When editing, ensure cross-document consistency for:
 If you change a core concept, update:
 1) the challenge’s `handbook.md` first,
 2) then the relevant numbered docs,
-3) then `faq.md` and templates if impacted.
+3) then `faq.md` and any impacted support docs if needed.
 
 ## Change workflow (Codex guidance)
 1) Identify the challenge folder(s) affected.
 2) Read `handbook.md` first to understand canonical definitions and mechanics.
 3) Make the smallest change necessary.
-4) Update dependent docs for consistency (especially `faq.md` and templates).
+4) Update dependent docs for consistency (especially `faq.md` and related challenge guides).
 5) Run a quick self-review using the checklist below.
 
 ## Self-review checklist (before proposing changes)

@@ -1,7 +1,7 @@
 # BitGN PAC Handbook
 **BitGN Agent Challenge: Personal & Trustworthy** (BitGN PAC)  
 **Version:** 1.0  
-**Last updated:** 19 Feb 2026 (Vienna time)
+**Last updated:** 20 Feb 2026 (Vienna time)
 
 ## Table of contents
 - [1. What BitGN PAC is](#1-what-bitgn-pac-is)
@@ -297,17 +297,41 @@ A trustworthy personal agent achieves goals reliably while protecting the user:
 A hub is a local in-person gathering synchronized with the global event. Vienna is listed as the default “HQ hub” because the organizer is based in Vienna, but hubs can be anywhere.
 
 ### What BitGN provides
-- listing page (after approval)
-- hub code/QR for check-in attribution
+- in-platform hub proposal and management flows
+- approval-gated hub listings
+- revisioned listings so approved hubs stay public while edits wait for review
+- hub code/QR for on-site check-in attribution
 - local leaderboard view
-- promo kit + logos + suggested agenda
-- livestream embed
 
 ### What hubs provide
 - venue and capacity
 - organizer contact
-- schedule and registration link
+- hub URL and venue size details
 - local logistics, safety readiness, and any local prizes/sponsors
+
+### Hub proposal flow on BitGN platform
+Hub proposals are created and managed on the BitGN platform:
+1) Go to `/me` and click **“I want to host a hub”** on one of your interested cities.
+2) Complete `/me/hubs/new` with:
+   - `city_id` (restricted to your interested cities)
+   - `event_slug` (active events only)
+   - `hub_name`
+   - `hub_url`
+   - `venue_size`
+   - required compliance attestations
+3) Submit and track updates in `/me/hubs`.
+
+### Listing states on `/me/hubs`
+- `pending`: submitted, waiting for approval
+- `approved`: approved and publicly visible
+- `changes_pending`: approved listing exists and a new edit is pending review
+- `rejected`: latest unapproved submission was rejected
+
+### Approval and edits
+- Initial submission creates a pending listing.
+- Editing an approved hub creates a new pending revision.
+- Public pages continue showing the last approved revision while edits are pending.
+- If a pending edit is rejected, the last approved public listing stays unchanged.
 
 ### Non-negotiables
 - enforce Code of Conduct
@@ -324,8 +348,8 @@ BitGN provides the online platform and listing. Hub events are the hub organizer
 ### Sponsor neutrality
 Hub sponsors may be visible on hub-controlled pages/materials, but do not receive visibility on the global BitGN platform.
 
-### Hub attribution
-Participants attribute to a hub by entering the hub code / scanning the hub QR at check-in. A participant may appear on multiple leaderboards (global + hub).
+### Hub attribution (on-site check-in)
+Participants attribute to a hub by entering the hub code or scanning the hub QR at check-in. A participant may appear on multiple leaderboards (global + hub).
 
 ---
 
