@@ -67,12 +67,7 @@ As of this update, **241 users** have pre-registered interest across **50 cities
 
 ## 2. Key links, status, and contact
 
-```text
-Website (registration/docs discoverable): https://bitgn.com
-Updates/newsletter: https://bitgn.substack.com
-Status page: https://status.bitgn.com
-Primary technical support contact: biz@abdullin.com
-```
+Canonical links are maintained in the repository root [README](../README.md).
 
 ---
 

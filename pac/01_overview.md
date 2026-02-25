@@ -61,12 +61,3 @@ A previous competition platform iteration (Enterprise RAG Challenge 3) scaled to
 ## Get started (CTA)
 Register → get an API key → run a sample agent → appear on the leaderboard.  
 **Let’s learn and push the state of the art together.**
-
-## Stay updated
-```text
-Website: https://bitgn.com
-Updates/newsletter: https://bitgn.substack.com
-Status page: https://status.bitgn.com
-Support/contact: biz@abdullin.com
-Organizer: BitGN by Rinat Abdullin (Vienna, Austria)
-```

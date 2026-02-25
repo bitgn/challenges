@@ -42,7 +42,3 @@ Possible actions include:
 
 ## Hub addendum
 Hubs may extend this Code of Conduct with stricter rules, but **cannot weaken it**.
-
-```text
-Support/contact: biz@abdullin.com
-```

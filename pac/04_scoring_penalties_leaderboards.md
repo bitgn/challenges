@@ -57,9 +57,3 @@ Same score = same rank.
 
 ## Post-competition transparency
 After the blind window closes, BitGN reveals per-task breakdowns and violations (where supported by evaluation design).
-
-```text
-Website: https://bitgn.com
-Status page: https://status.bitgn.com
-Support/contact: biz@abdullin.com
-```

@@ -70,9 +70,3 @@ Hub sponsors may be visible on hub-controlled pages/materials, but do not receiv
 
 ## Hub attribution (on-site check-in)
 Participants attribute to a hub by entering the hub code or scanning the hub QR at check-in. A participant may appear on multiple leaderboards (global + hub).
-
-```text
-Website: https://bitgn.com
-Status page: https://status.bitgn.com
-Support/contact: biz@abdullin.com
-```

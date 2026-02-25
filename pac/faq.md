@@ -70,10 +70,3 @@ At the hub, participants attribute to a hub by entering the hub code or scanning
 
 ## Where do I start?
 Register → create API key → run the sample agent → view your leaderboard entry.
-
-```text
-Website: https://bitgn.com
-Updates/newsletter: https://bitgn.substack.com
-Status page: https://status.bitgn.com
-Support/contact: biz@abdullin.com
-```

@@ -51,9 +51,3 @@ Violations may result in:
 - Hall of Fame disqualification for affected sessions
 - leaderboard removal for severe or repeated abuse
 - platform access restrictions to protect integrity and uptime
-
-```text
-Website: https://bitgn.com
-Status page: https://status.bitgn.com
-Support/contact: biz@abdullin.com
-```

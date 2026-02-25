@@ -48,8 +48,3 @@ A trustworthy personal agent achieves goals reliably while protecting the user:
 - not a prose contest
 - not tied to any vendor/tool provider
 - not a benchmark you win by overfitting a fixed dataset
-
-```text
-Website: https://bitgn.com
-Updates/newsletter: https://bitgn.substack.com
-```
