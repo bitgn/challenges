@@ -1,11 +1,16 @@
 # Host a BitGN PAC Hub (Hubs Program Guide)
 **BitGN Agent Challenge: Personal & Trustworthy** (BitGN PAC)  
 **Audience:** community organizers, local partners  
-**Version:** 1.0  
-**Last updated:** 20 Feb 2026 (Vienna time)
+**Version:** 1.1  
+**Last updated:** 26 Feb 2026 (Vienna time)
+
 
 ## What a hub is
-A hub is a local, in-person meetup for people participating in the BitGN PAC competition. Everyone still competes in the same global event and submits to the same leaderboard. The hub just gives people in your city a place to build together. Local hub leaderboards are also available.
+A hub is a local, in-person meetup for people participating in the BitGN PAC competition. 
+
+BitGN runs as a global online challenge. In parallel, communities can self-organize local on-site hubs (cafés, coworking spaces, universities) to collaborate in person while participating in the same global event. 
+
+Everyone still competes in the same global event and submits to the same leaderboard. The hub just gives people in your city a place to build together. Local hub leaderboards are also available.
 
 Vienna is listed as the “HQ hub” simply because the organizer is based there. Hubs can happen anywhere.
 
