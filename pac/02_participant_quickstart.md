@@ -11,8 +11,7 @@
 - Access to your chosen LLM(s) (cloud or local)
 - Basic ability to run a sample agent (Python samples provided; API is language-agnostic)
 
-##Key dates (Vienna time)
-
+## Key dates (Vienna time)
 - March 2026: API access smoke test / minimal sandbox goes live — confirm your setup and run the sample agent
 - At least two weeks before 11 Apr 2026: full API + practice task set available — integrate and iterate
 - 11 Apr 2026: main competition day (blind scoring window opens)
