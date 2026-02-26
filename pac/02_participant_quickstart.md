@@ -2,7 +2,7 @@
 **BitGN Agent Challenge: Personal & Trustworthy** (BitGN PAC)  
 **Audience:** participants (builders)  
 **Goal:** first successful run  
-**Version:** 1.1  
+**Version:** 1.2  
 **Last updated:** 26 Feb 2026 (Vienna time)
 
 ## Prerequisites
@@ -12,9 +12,9 @@
 - Basic ability to run a sample agent (Python samples provided; API is language-agnostic)
 
 ## Key dates (Vienna time)
-- March 2026: API access smoke test / minimal sandbox goes live — confirm your setup and run the sample agent
-- At least two weeks before 11 Apr 2026: full API + practice task set available — integrate and iterate
-- 11 Apr 2026: main competition day (blind scoring window opens)
+- Sandbox: March 2026; API access smoke test / minimal sandbox goes live — confirm your setup and run the sample agent
+- Practice Task: At least two weeks before 11 Apr 2026; full API + practice task set available — integrate and iterate
+- Challenge: 11 Apr 2026; main competition day (blind scoring window opens), Hall of Fame announcement
 - After the event: challenge continues with live feedback and ongoing runs
 
 ## The 4-step path (available after the sandbox is released)
