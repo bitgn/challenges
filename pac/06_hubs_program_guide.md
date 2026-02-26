@@ -21,11 +21,12 @@ Vienna is listed as the “HQ hub” simply because the organizer is based there
 - a local leaderboard view (available on competition day, global + your hub), based on check-ins
 
 ## What hubs must provide
-- venue and capacity
-- organizer contact
-- hub URL and venue size details
-- local logistics and safety readiness
-- optional local sponsors and prizes (hub-managed)
+To host a hub, you’re responsible for:
+- a venue + estimated capacity
+- a hub link for hub sign-ups (you manage registration, not BitGN)
+- on competition day: share the hub QR/code for check-in so attendees can attribute to your hub
+- basic local logistics + safety readiness
+- optional: local sponsors/prizes (hub-managed)
 
 ## How to propose a hub (step by step)
 1. Log into BitGN and go to your profile page.
