@@ -1,8 +1,8 @@
 # BitGN PAC Overview
 **BitGN Agent Challenge: Personal & Trustworthy** (BitGN PAC)  
 **Audience:** everyone (first touch)  
-**Version:** 1.0  
-**Last updated:** 19 Feb 2026 (Vienna time)
+**Version:** 1.1  
+**Last updated:** 26 Feb 2026 (Vienna time)
 
 ## One-sentence promise
 By the end, you’ll have built your own autonomous agent, validated it against an enterprise-grade benchmark, and discovered new engineering patterns that collectively advance the state of the art in trustworthy personal agents.
@@ -56,7 +56,7 @@ A previous competition platform iteration (Enterprise RAG Challenge 3) scaled to
 - 10,439 completed sessions
 - 368,679 agent runs evaluated
 
-**Community signal (as of 19 Feb 2026):** 241 users have pre-registered interest across 50 cities/locations.
+**Community signal (as of 26 Feb 2026):** 340 engineers have pre-registered interest across 67 cities/locations.
 
 ## Get started (CTA)
 Register → get an API key → run a sample agent → appear on the leaderboard.  
