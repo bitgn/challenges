@@ -33,8 +33,8 @@ To host a hub, you’re responsible for:
 2. Add a city where you want to host a hub.
 3. Click “I want to host a hub”.
 4. Fill in the hub form:
-- hub name
-- hub link where you accept registrations 
+- hub name 
+- hub link where you accept registrations (should contain a link back to the competition page at BitGN)
 - venue size (example: “10–20 people”)
 - optional hub description
 - confirm the required rules
