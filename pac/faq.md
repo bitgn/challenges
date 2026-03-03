@@ -56,14 +56,10 @@ Yes. After the blind window closes, BitGN reveals per-task breakdowns and violat
 Hubs are optional in-person meetups synchronized with the global event. Hosts handle local logistics and sponsors. BitGN provides approval-gated hub listings and local leaderboard views.
 
 ## How do I host a hub?
-Use BitGN platform flows:
-- Open `/me` and click **“I want to host a hub”** on one of your interested cities.
-- Submit the proposal in `/me/hubs/new` (city, active event, hub name, hub URL, venue size, required attestations).
-- Manage state and edits in `/me/hubs` (`pending`, `approved`, `changes_pending`, `rejected`).
+More info here: https://github.com/bitgn/challenges/blob/main/pac/06_hubs_program_guide.md. 
 
 ## How do hub leaderboards work on-site?
 At the hub, participants attribute to a hub by entering the hub code or scanning the hub QR at check-in.
-
 
 ## Why should I join?
 **Let’s learn and push the state of the art together.** You’ll build an agent you own, validate it against a rigorous benchmark, and gain a credible public signal via the leaderboard.
