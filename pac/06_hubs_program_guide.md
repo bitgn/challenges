@@ -61,7 +61,8 @@ BitGN provides the platform and hub listing. Your hub event is your responsibili
 
 ## Naming and branding
 Use the format: “BitGN PAC1 Hub in <City>”
-Please don’t present your hub as globally sponsored or “officially hosted” by BitGN beyond providing a venue for participation.
+Please don’t present your hub as globally sponsored or "officially hosted” by BitGN, or describe your hub as a partner, co-organizer, or official organizer of BitGN. 
+Hubs participate as independent local hosts providing a venue for participation, and all hubs operate on equal footing.
 
 ## Local prizes (optional)
 Hubs may offer local prizes for hub participants or local winners (hub-managed). Any local prizes or sponsors are not sponsorship of the global BitGN challenge and should be clearly presented as hub-local only.
