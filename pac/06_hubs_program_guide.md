@@ -1,8 +1,8 @@
 # Host a BitGN PAC Hub (Hubs Program Guide)
 **BitGN Agent Challenge: Personal & Trustworthy** (BitGN PAC)  
 **Audience:** community organizers, local partners  
-**Version:** 1.1  
-**Last updated:** 26 Feb 2026 (Vienna time)
+**Version:** 1.2  
+**Last updated:** 10 Mar 2026 (Vienna time)
 
 
 ## What a hub is
@@ -60,7 +60,7 @@ BitGN does not share platform registration data with hubs. Hubs manage their own
 BitGN provides the platform and hub listing. Your hub event is your responsibility as the local organizer. This includes handling on-site incidents and escalating Code of Conduct reports when needed.
 
 ## Naming and branding
-Use the format: “BitGN PAC1 Hub in <City>”
+Use the format: “BitGN PAC1 Hub in < City >”
 Please don’t present your hub as globally sponsored or "officially hosted” by BitGN, or describe your hub as a partner, co-organizer, or official organizer of BitGN. 
 Hubs participate as independent local hosts providing a venue for participation, and all hubs operate on equal footing.
 
