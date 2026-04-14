@@ -6,7 +6,7 @@
 
 ## What is scored
 BitGN scores deterministic outcomes:
-- task completion via required side effects and checks
+- trial completion via required side effects and checks
 - forbidden side effects avoided
 - required flags/references included
 - output protocol compliance
@@ -14,10 +14,10 @@ BitGN scores deterministic outcomes:
 This is intentionally not subjective “LLM-as-a-judge” grading.
 
 ## Points model
-- Default: **1.0 point per task**
-- Penalties can reduce a task score down to **0.0**
-- Task scores are summed and normalized (e.g., to 0–100)
-- Tasks are unweighted by default
+- Default: **1.0 point per trial**
+- Penalties can reduce a trial score down to **0.0**
+- Trial scores are summed and normalized (e.g., to 0–100)
+- Trials are unweighted by default
 
 ## Typical failure modes
 - correct-looking text but wrong/missing side effects
@@ -35,7 +35,7 @@ This is intentionally not subjective “LLM-as-a-judge” grading.
 - missing grounding references / missing required flags
 
 ## API-call cap (fairness constraint)
-There is a per-task evaluation call cap (ballpark ~1000 calls) to prevent runaway loops and “tool spam”.
+There is a per-trial evaluation call cap (ballpark ~1000 calls) to prevent runaway loops and “tool spam”.
 
 ## Leaderboards
 ### Hall of Fame (Frozen)
@@ -56,4 +56,4 @@ There is a per-task evaluation call cap (ballpark ~1000 calls) to prevent runawa
 Same score = same rank.
 
 ## Post-competition transparency
-After the blind window closes, BitGN reveals per-task breakdowns and violations (where supported by evaluation design).
+After the blind window closes, BitGN reveals per-trial breakdowns and violations (where supported by evaluation design).

@@ -57,12 +57,12 @@ Avoid drifting definitions between docs.
 ### Platform mechanics (do not contradict)
 - Deterministic simulated environment; evaluation is outcome-based (tool calls + side effects + required flags/references).
 - Avoid claiming “LLM-as-a-judge”; the intent is deterministic evaluation.
-- Tasks can be generated per session with seeded variability to reduce overfitting.
+- Trials can be generated per run with seeded variability to reduce overfitting.
 
 ### Definitions (must match everywhere)
-- **Task:** one unit of work with deterministic success criteria.
-- **Run:** one attempt on one task instance (**one task = one run**).
-- **Session:** a batch run across all tasks in a task set (practice or main event). Sessions may run tasks sequentially or in parallel.
+- **Task:** one benchmark-defined unit of work with deterministic success criteria.
+- **Trial:** one concrete task instance inside a run.
+- **Run:** execution across all trials in a task set (practice or main event). Runs may execute trials sequentially or in parallel.
 
 ### Integrity rules (must match everywhere)
 - During-run rule: **no human-in-the-loop inside a run**.
@@ -71,12 +71,12 @@ Avoid drifting definitions between docs.
   - **Hall of Fame:** frozen leaderboard from blind-window submissions.
   - **Live leaderboard:** ongoing runs before/after, with feedback after the blind window.
 - Hall of Fame submission mechanics:
-  - Participants can run multiple sessions.
+  - Participants can execute multiple runs.
   - They select one via UI text: **“Submit to Hall of Fame”**.
-  - If not selected, **last completed session before cutoff is auto-submitted**.
+  - If not selected, **last completed run before cutoff is auto-submitted**.
 
 ### Scoring model (keep stable unless explicitly changed)
-- Each task yields up to **1.0** points; penalties can reduce to **0.0**.
+- Each trial yields up to **1.0** points; penalties can reduce to **0.0**.
 - Scores are summed and normalized (often described as 0–100).
 - API-call cap is described conceptually (anti-bloat); avoid over-specifying implementation.
 - Mention typical penalty categories consistently (prompt injection/exfiltration, unsafe tool use, constraint violations, protocol failures, missing grounding).
@@ -106,7 +106,7 @@ Do not introduce:
 
 ### Cross-document update rule
 If you change any of the following, you must update all impacted docs:
-- definitions (task/run/session)
+- definitions (task/trial/run)
 - submission mechanics (Hall of Fame selection / auto-submit)
 - date/time claims or time zone anchor
 - penalty categories or scoring normalization

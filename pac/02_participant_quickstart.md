@@ -34,16 +34,16 @@
 - during the competition blind window, detailed feedback is suppressed
 
 ## Product definitions
-- **Task:** one unit of work with deterministic success criteria
-- **Run:** one attempt on one task instance (one task = one run)
-- **Session:** executing across all tasks in a task set (practice or competition)
+- **Task:** one benchmark-defined unit of work with deterministic success criteria
+- **Trial:** one concrete task instance inside a run
+- **Run:** executing across all trials in a task set (practice or competition)
 
 ## Submissions and Hall of Fame
-- You can run multiple sessions.
-- To submit to the **Hall of Fame** (frozen leaderboard), select **one** completed session during the blind window via **“Submit to Hall of Fame”**.
-- If you don’t select one, the **last completed session before cutoff** is auto-submitted.
+- You can execute multiple runs.
+- To submit to the **Hall of Fame** (frozen leaderboard), select **one** completed run during the blind window via **“Submit to Hall of Fame”**.
+- If you don’t select one, the **last completed run before cutoff** is auto-submitted.
 
-All sessions still contribute to the **live leaderboard**.
+All runs still contribute to the **live leaderboard**.
 
 ## Where to get help
 - Status: check the Status page (https://status.bitgn.com/) first

@@ -35,7 +35,7 @@ When editing, ensure cross-document consistency for:
 - Names, branding, abbreviations
 - Dates and time zone anchors (Europe/Vienna; use absolute dates where possible)
 - Key links (website, status page, newsletter, support email)
-- Core definitions used across docs (task/run/session, Hall of Fame vs Live)
+- Core definitions used across docs (task/trial/run, Hall of Fame vs Live)
 
 If you change a core concept, update:
 1) the challenge’s `handbook.md` first,

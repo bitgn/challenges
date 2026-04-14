@@ -35,19 +35,19 @@ Between runs, you may modify your agent and fix bugs.
 
 ## Competition window mechanics (blind scoring)
 During the competition window:
-- you may run multiple sessions
-- you may submit one session to Hall of Fame
+- you may execute multiple runs
+- you may submit one run to Hall of Fame
 - detailed feedback is suppressed (scores/failure descriptions are not shown)
 
 After the window closes, results and breakdowns are revealed.
 
 ## What counts as a valid competition submission
-A valid Hall of Fame entry is one completed session during the competition window that is:
+A valid Hall of Fame entry is one completed run during the competition window that is:
 - explicitly selected via **“Submit to Hall of Fame”**, or
-- auto-submitted as the last completed session before cutoff
+- auto-submitted as the last completed run before cutoff
 
 ## Enforcement approach
 Violations may result in:
-- Hall of Fame disqualification for affected sessions
+- Hall of Fame disqualification for affected runs
 - leaderboard removal for severe or repeated abuse
 - platform access restrictions to protect integrity and uptime
