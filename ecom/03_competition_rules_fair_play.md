@@ -1,8 +1,8 @@
 # Competition Rules & Fair Play
-**BitGN Agent Challenge: E-commerce** (ECOM1) 
-**Audience:** participants, observers, community organizers 
-**Version:** 0.2 
-**Last updated:** 6 May 2026 (Vienna time) 
+**BitGN Agent Challenge: E-commerce** (ECOM1)  
+**Audience:** participants, observers, community organizers  
+**Version:** 0.2  
+**Last updated:** 6 May 2026 (Vienna time)  
 
 This doc is the canonical source for ECOM1 participation rules, fair play, and valid competition submissions. For scoring formulas, penalties, Hall of Fame, and leaderboard behavior, see [04_scoring_penalties_leaderboards.md](04_scoring_penalties_leaderboards.md).
 
