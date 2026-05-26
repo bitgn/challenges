@@ -9,9 +9,13 @@
 
 Use this page when you are ready to move from interest to a working ECOM1 run.
 
-ECOM1 follows the same general participation process as PAC1: register, create an API key, run a sample agent, practice on open tasks, then run against the hidden competition task set during the blind window.
+For the shortest explanation of what ECOM1 is, start with [01_overview.md](01_overview.md).
+
+ECOM1 follows the same general participation process as other BitGN challenges: register, create an API key, practice on published test tasks, then run against the hidden competition task set during the blind window.
 
 The ECOM1-specific difference is the benchmark domain. Your agent works inside a simulated commercial operating environment with warehouse data, customer files, carts, orders, payment state, support cases, and merchant policies.
+
+This quickstart keeps shared BitGN mechanics tactical. Use it for the ECOM1 path, then follow the linked rules and scoring docs for details.
 
 ## Current event status
 
@@ -19,23 +23,23 @@ The ECOM1-specific difference is the benchmark domain. Your agent works inside a
 - Short name: ECOM1
 - Competition date: 30 May 2026
 - Lead partner: COLIBRIX ONE
-- Current roadmap: publish documents, release sandbox + sample agent, freeze API + test tasks, run the competition, publish insights report
+- Current roadmap: publish documents, publish test tasks, freeze API, run the competition, publish insights report
 
 ## Prerequisites
 
 - Google account (sign-in via Google)
 - Local runtime to run an agent (laptop/VM)
 - Access to your chosen LLM(s) (cloud or local)
-- Basic ability to run a sample agent
+- Basic ability to run an agent locally
 - Familiarity with API keys and local configuration
 
 ## The participation path
 
 1. Register on BitGN.
 2. Create an API key from your profile.
-3. Until the ECOM1 sandbox is released, use the open PAC1 benchmark as the warmup path.
-4. When the ECOM1 sandbox and sample agent are released, run the sample agent.
-5. Practice on ECOM1 test tasks and inspect your results on the live leaderboard, where available.
+3. Until ECOM1 test tasks are published, use the open PAC1 benchmark as the practice ground and model competition for your agent loop.
+4. When ECOM1 test tasks are published, run your agent against them.
+5. Inspect your test-task results on the live leaderboard, where available.
 6. After the API and test-task freeze, focus on agent behavior rather than interface changes.
 7. On 30 May 2026, run your agent against the hidden ECOM1 competition task set during the blind window.
 8. Submit a valid competition run to the Hall of Fame using the same submission mechanics as the current BitGN challenge platform.
@@ -64,7 +68,7 @@ Prepare for:
 - merchant tasks: reason over catalog, inventory, shipping, and policy data without violating business rules
 - support tasks: investigate missing packages, returns, refunds, replacements, and escalations without leaking sensitive data
 
-## Product definitions
+## Shared BitGN terms you will see
 
 - **Task:** one benchmark-defined unit of work with deterministic success criteria
 - **Trial:** one concrete task instance inside a run
@@ -86,7 +90,7 @@ Prepare for:
 - Output protocol compliance, including required flags or references where applicable
 - Runtime under control for a full task set
 
-## Rules inherited from PAC1 unless BitGN publishes ECOM1-specific changes
+## Shared BitGN rules to remember
 
 - Participation is free and remote-first.
 - Solo participants and teams are allowed.
@@ -96,6 +100,8 @@ Prepare for:
 - Do not exploit platform bugs, bypass intended limits, abuse rate limits, degrade reliability, or extract hidden evaluation signals.
 - Valid competition submission and Hall of Fame behavior follow the challenge platform rules published for the active competition.
 
+ECOM1 adds commerce-specific constraints around payments, fraud controls, refunds, replacements, discounts, policy compliance, and sensitive data handling.
+
 ## Hubs
 
 Hubs are optional local meetups for people participating in the same global ECOM1 challenge.
@@ -103,6 +109,8 @@ Hubs are optional local meetups for people participating in the same global ECOM
 Existing approved PAC1 hubs should register the existing hub for ECOM1 instead of recreating the hub from scratch. ECOM1 hub check-in, QR/code attribution, and local leaderboard views are challenge-specific.
 
 Participants still compete on the global ECOM1 leaderboard. Hub views are filters based on ECOM1 check-in attribution, not a separate competition.
+
+Hub organizers should follow [06_hubs_program_guide.md](06_hubs_program_guide.md).
 
 ## Where to get help
 
@@ -113,8 +121,8 @@ Participants still compete on the global ECOM1 leaderboard. Hub views are filter
 
 ## Read next
 
-- Current ECOM1 context: [/03_projects/bitgn-platform/10_context/future-benchmarks.md](/03_projects/bitgn-platform/10_context/future-benchmarks.md)
-- E-commerce positioning card: [/02_distill/cards/2026-04-21__bitgn-e-commerce-challenge-positioning.md](/02_distill/cards/2026-04-21__bitgn-e-commerce-challenge-positioning.md)
-- Existing hub registration direction: [/03_projects/bitgn-platform/20_workbench/2026-05-05__existing-hub-ecom1-registration-ux.md](/03_projects/bitgn-platform/20_workbench/2026-05-05__existing-hub-ecom1-registration-ux.md)
-
-<!-- AIOS-NOTE: ECOM1 participation should inherit PAC1's process mechanics, while the quickstart makes the commerce-specific prep explicit: state tracking, policy compliance, checkout/payment safety, and support decisions. -->
+- Rules, fair play, and valid submission mechanics: [03_competition_rules_fair_play.md](03_competition_rules_fair_play.md)
+- Scoring, penalties, Hall of Fame, and live leaderboard mechanics: [04_scoring_penalties_leaderboards.md](04_scoring_penalties_leaderboards.md)
+- Commerce-specific trustworthiness expectations and examples: [05_trustworthiness_rubric.md](05_trustworthiness_rubric.md)
+- Local hub hosting guide: [06_hubs_program_guide.md](06_hubs_program_guide.md)
+- One-place ECOM1 orientation: [handbook.md](handbook.md)
